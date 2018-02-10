@@ -9,7 +9,7 @@ type Router interface {
 	Route(g *echo.Group)
 }
 
-type AdminRouter struct {
+type OtherRouter struct {
 }
 
 type RestrictedHogeRouter struct {

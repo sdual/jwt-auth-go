@@ -1,9 +1,10 @@
 package handler
 
 type AdminGroup struct {
-	RouterA Router
+	adminRouter Router
 }
 
 type RestrictedGroup struct {
-	RouterB Router
+	restrictedHogeRouter Router
+	restrictedHugaRouter Router
 }
